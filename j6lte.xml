@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Custom remotes -->
+    <remote name="j6lte" fetch="https://github.com/j6lte-development" />
+
+    <!-- Device -->
+    <project name="android_device_samsung_j6lte" path="device/samsung/j6lte" remote="j6lte" revision="lineage-16.0" />
+    <project name="android_device_samsung_exynos7870-common" path="device/samsung/exynos7870-common" remote="j6lte" revision="lineage-16.0" />
+    <project name="android_kernel_samsung_j6lte" path="kernel/samsung/exynos7870" remote="j6lte" revision="lineage-16.0" />
+    <project name="android_vendor_samsung" path="vendor/samsung" remote="j6lte" revision="lineage-16.0" />
+		
+    <project name="android_hardware_samsung"  path="hardware/samsung" remote="j6lte" revision="lineage-16.0" />
+    <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.1" />
+    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
+		
+</manifest>
